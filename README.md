@@ -85,24 +85,11 @@ export default function App() {
     </main>
   )
 }
-```
-/server/package.json:
-```bash
-{
-  "dependencies": {
-    "express": "^4.21.2"
-  },
-  "scripts":{
-    "dev": "node --watch server.js"
-  }
-}
-```
 + another 2 bash terminal, rename 1 react / 2 express / 3 git
+express$ cd server
+express/server$ node --watch server.js (start express before react)
 react$ npm run dev
 click link to open browser
-express$ cd server
-express/server$ npm run dev
-refresh browser
 App.jsx: modify h1 to check hot-reload working
 /package.json: "start":"cd server && node server.js"
 Push to GitHub
