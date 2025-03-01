@@ -18,7 +18,7 @@ VS Code:
  React
  JavaScript
  $ npm i
- $ npm i dotenv
+ $ npm i dotenv express(must be installed in BOTH /server and /root)
  $ touch .env
  .gitignore: add '.env'
  DO NOT DELETE 'react.svg' FILE / WILL THROW AN ERROR
@@ -112,3 +112,7 @@ Render.com:
  Select 'Web Service'
  Select GitHub Repo from Dropdown Menu
  Click Button 'Connect'
+ Start Command: $ npm start
+ Free $0/month
+ Click Button 'Deploy Web Service'
+ Maximize Log Screen
