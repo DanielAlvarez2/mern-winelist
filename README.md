@@ -1,7 +1,7 @@
-GitHub:
- Your repositories
- Click Green Button: 'New'
- Fill in 'Repository name*'
+GitHub: 
+ Your repositories 
+ Click Green Button: 'New' 
+ Fill in 'Repository name *' 
  [ ]Add a README file (leave unchecked)
  Click Green Button 'Create Repository'
  Copy URL
@@ -85,7 +85,7 @@ export default function App() {
     </main>
   )
 }
-+ another 2 bash terminal, rename 1 react / 2 express / 3 git
++ another 2 bash terminals, rename 1 react / 2 express / 3 git
 express$ cd server
 express/server$ node --watch server.js (start express before react)
 react$ npm run dev
@@ -103,3 +103,5 @@ Render.com:
  Free $0/month
  Click Button 'Deploy Web Service'
  Maximize Log Screen
+
+  
