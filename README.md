@@ -104,3 +104,11 @@ express$ cd server
 express/server$ npm run dev
 refresh browser
 App.jsx: modify h1 to check hot-reload working
+/package.json: "start":"cd server && node server.js"
+Push to GitHub
+
+Render.com:
+ Push Button '+ New' 
+ Select 'Web Service'
+ Select GitHub Repo from Dropdown Menu
+ Click Button 'Connect'
