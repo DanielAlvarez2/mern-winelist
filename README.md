@@ -1,4 +1,4 @@
-GitHub: 
+GitHub:  
  Your repositories 
  Click Green Button: 'New' 
  Fill in 'Repository name *' 
