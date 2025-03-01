@@ -104,6 +104,6 @@ Render.com:
  Start Command: $ npm start  
  Free $0/month  
  Click Button 'Deploy Web Service'  
- Maximize Log Screen  `
+ Maximize Log Screen  
 
   
