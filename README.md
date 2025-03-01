@@ -36,6 +36,7 @@ VS Code:
  /server/package.json: {}  
  /server$ npm i express  
  /server$ touch server.js  
+ 
  /server/server.js:  
  ```js
 const express = require('express')
@@ -86,7 +87,7 @@ export default function App() {
   )
 }
 ```
-+ another 2 bash terminals, rename 1 react / 2 express / 3 git  
+add another 2 bash terminals, rename 1 react / 2 express / 3 git  
 express$ cd server  
 express/server$ node --watch server.js (start express before react)  
 react$ npm run dev  
