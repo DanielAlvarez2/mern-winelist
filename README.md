@@ -1,42 +1,42 @@
 GitHub:  
- Your repositories 
- Click Green Button: 'New' 
- Fill in 'Repository name *' 
- [ ]Add a README file (leave unchecked)
- Click Green Button 'Create Repository'
- Copy URL
+ Your repositories  
+ Click Green Button: 'New'  
+ Fill in 'Repository name *'  
+ [ ]Add a README file (leave unchecked)  
+ Click Green Button 'Create Repository'  
+ Copy URL  
 
-VS Code:
- New Window
- $ cd desktop
- $ git clone cmd-v (paste URL)
- (Folder Icon) Open...
- Open newly created folder
- $ git config user.name 'Daniel Alvarez'
- $ git config user.email 'daniel.yllanes@hotmail.com'
- $ npm create vite@ latest .
- React
- JavaScript
- $ npm i
- $ npm i dotenv express(must be installed in BOTH /server and /root)
- $ touch .env
- .gitignore: add '.env'
- DO NOT DELETE 'react.svg' FILE / WILL THROW AN ERROR
- Delete /public 
- Delete App.css
- App.jsx: delete all imports except for useState
- App.jsx: delete everything in function and replace with 'test'
- App.jsx: move export default function App(){}
- index.css: delete everything
- $ npm run dev (check that React is working)
- $ ctrl-c
- $ mkdir server
- $ cd server
- /server$ touch package.json
- /server/package.json: {}
- /server$ npm i express
- /server$ touch server.js
- /server/server.js:
+VS Code:  
+ New Window  
+ $ cd desktop  
+ $ git clone cmd-v (paste URL)  
+ (Folder Icon) Open...  
+ Open newly created folder  
+ $ git config user.name 'Daniel Alvarez'  
+ $ git config user.email 'daniel.yllanes@hotmail.com'  
+ $ npm create vite@ latest .  
+ React  
+ JavaScript  
+ $ npm i  
+ $ npm i dotenv express(must be installed in BOTH /server and /root)  
+ $ touch .env  
+ .gitignore: add '.env'  
+ DO NOT DELETE 'react.svg' FILE / WILL THROW AN ERROR  
+ Delete /public  
+ Delete App.css  
+ App.jsx: delete all imports except for useState  
+ App.jsx: delete everything in function and replace with 'test'  
+ App.jsx: move export default function App(){}  
+ index.css: delete everything  
+ $ npm run dev (check that React is working)  
+ $ ctrl-c  
+ $ mkdir server  
+ $ cd server  
+ /server$ touch package.json  
+ /server/package.json: {}  
+ /server$ npm i express  
+ /server$ touch server.js  
+ /server/server.js:  
  ```js
 const express = require('express')
 const app = express()
@@ -85,23 +85,24 @@ export default function App() {
     </main>
   )
 }
-+ another 2 bash terminals, rename 1 react / 2 express / 3 git
-express$ cd server
-express/server$ node --watch server.js (start express before react)
-react$ npm run dev
-click link to open browser
-App.jsx: modify h1 to check hot-reload working
-/package.json: "start":"cd server && node server.js"
-Push to GitHub
+```
++ another 2 bash terminals, rename 1 react / 2 express / 3 git  
+express$ cd server  
+express/server$ node --watch server.js (start express before react)  
+react$ npm run dev  
+click link to open browser  
+App.jsx: modify h1 to check hot-reload working  
+/package.json: "start":"cd server && node server.js"  
+Push to GitHub  
 
-Render.com:
- Push Button '+ New' 
- Select 'Web Service'
- Select GitHub Repo from Dropdown Menu
- Click Button 'Connect'
- Start Command: $ npm start
- Free $0/month
- Click Button 'Deploy Web Service'
- Maximize Log Screen
+Render.com:  
+ Push Button '+ New'  
+ Select 'Web Service'  
+ Select GitHub Repo from Dropdown Menu  
+ Click Button 'Connect'  
+ Start Command: $ npm start  
+ Free $0/month  
+ Click Button 'Deploy Web Service'  
+ Maximize Log Screen  `
 
   
