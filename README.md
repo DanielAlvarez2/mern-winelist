@@ -32,14 +32,11 @@ VS Code:
  $ ctrl-c  
  $ mkdir server  
  $ cd server  
- /server$ touch package.json  
- /server/package.json: {}  
- /server$ npm i express  
  /server$ touch server.js  
  
  /server/server.js:  
  ```js
-const express = require('express')
+import express from 'express'
 const app = express()
 const PORT = process.env.PORT || 8080
 app.listen(PORT, ()=> console.log('Server Running!'))
