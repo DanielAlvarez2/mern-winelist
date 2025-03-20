@@ -8,4 +8,3 @@ const items = [
     {name:"Desktop",price: 700}
 ]
 app.get('/api/items',(req,res)=>res.send(items))
-setInterval(()=>fetch("https://mern-winelist.onrender.com"),600000)
